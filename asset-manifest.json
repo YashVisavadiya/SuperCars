@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/SuperCars/static/css/main.5ccae85c.css",
-    "main.js": "/SuperCars/static/js/main.43d28df1.js",
+    "main.js": "/SuperCars/static/js/main.92c8af1f.js",
     "static/js/787.5c09ac16.chunk.js": "/SuperCars/static/js/787.5c09ac16.chunk.js",
     "index.html": "/SuperCars/index.html",
     "main.5ccae85c.css.map": "/SuperCars/static/css/main.5ccae85c.css.map",
-    "main.43d28df1.js.map": "/SuperCars/static/js/main.43d28df1.js.map",
+    "main.92c8af1f.js.map": "/SuperCars/static/js/main.92c8af1f.js.map",
     "787.5c09ac16.chunk.js.map": "/SuperCars/static/js/787.5c09ac16.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5ccae85c.css",
-    "static/js/main.43d28df1.js"
+    "static/js/main.92c8af1f.js"
   ]
 }
