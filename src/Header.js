@@ -10,7 +10,7 @@ const Header = () => {
           alt="abc"
           style={{ width: "100px" }}
           onClick={() => {
-            navigate("/");
+            navigate("/SuperCars");
           }}
         />
         <button

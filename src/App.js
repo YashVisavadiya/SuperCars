@@ -17,17 +17,17 @@ function App() {
     <>
       <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/SuperCars/" element={<Layout />}>
           <Route index element={<Home />}></Route>
-          <Route path="/allBrands" element={<AllBrands />}></Route>
-          <Route path="/allBrands/:id" element={<CarDetails />}></Route>
-          <Route path="/allBrands/add" element={<AddCar />}></Route>
-          <Route path="/allBrands/edit/:id" element={<AddCar />}></Route>
-          <Route path='/about-us' element={<AboutUs />}></Route>
-          <Route path='/advertising' element={<Advertising />}></Route>
-          <Route path='/contact-us' element={<ContactUs />}></Route>
-          <Route path='/copyright-notice' element={<CopyrightNotice />}></Route>
-          <Route path='/disclaimer' element={<Disclaimer />}></Route>
+          <Route path="/SuperCars/allBrands" element={<AllBrands />}></Route>
+          <Route path="/SuperCars/allBrands/:id" element={<CarDetails />}></Route>
+          <Route path="/SuperCars/allBrands/add" element={<AddCar />}></Route>
+          <Route path="/SuperCars/allBrands/edit/:id" element={<AddCar />}></Route>
+          <Route path="/SuperCars/about-us" element={<AboutUs />}></Route>
+          <Route path="/SuperCars/advertising" element={<Advertising />}></Route>
+          <Route path="/SuperCars/contact-us" element={<ContactUs />}></Route>
+          <Route path="/SuperCars/copyright-notice" element={<CopyrightNotice />}></Route>
+          <Route path="/SuperCars/disclaimer" element={<Disclaimer />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>

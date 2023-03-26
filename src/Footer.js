@@ -1,4 +1,4 @@
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
   const navigate = useNavigate();
@@ -14,9 +14,9 @@ const Footer = () => {
                     className="dark-font"
                     style={{ background: "black", color: "#212529" }}
                     onClick={() => {
-                      if (window.location.pathname == "/")
+                      if (window.location.pathname == "/SuperCars")
                         window.scrollTo(0, 0);
-                      else navigate("/");
+                      else navigate("/SuperCars");
                     }}
                   >
                     <img
@@ -80,9 +80,9 @@ const Footer = () => {
                     className="dark-font"
                     style={{ background: "black", color: "#212529" }}
                     onClick={() => {
-                      if (window.location.pathname == "/about-us")
+                      if (window.location.pathname == "/SuperCars/about-us")
                         window.scrollTo(0, 0);
-                      else navigate("/about-us");
+                      else navigate("/SuperCars/about-us");
                     }}
                   >
                     <span>ABOUT US</span>
@@ -93,9 +93,9 @@ const Footer = () => {
                     className="dark-font"
                     style={{ background: "black", color: "#212529" }}
                     onClick={() => {
-                      if (window.location.pathname == "/advertising")
+                      if (window.location.pathname == "/SuperCars/advertising")
                         window.scrollTo(0, 0);
-                      else navigate("/advertising");
+                      else navigate("/SuperCars/advertising");
                     }}
                   >
                     <span>ADVERTISING</span>
@@ -106,9 +106,9 @@ const Footer = () => {
                     className="dark-font"
                     style={{ background: "black", color: "#212529" }}
                     onClick={() => {
-                      if (window.location.pathname == "/contact-us")
+                      if (window.location.pathname == "/SuperCars/contact-us")
                         window.scrollTo(0, 0);
-                      else navigate("/contact-us");
+                      else navigate("/SuperCars/contact-us");
                     }}
                   >
                     <span>CONTACT US</span>
@@ -119,9 +119,9 @@ const Footer = () => {
                     className="dark-font"
                     style={{ background: "black", color: "#212529" }}
                     onClick={() => {
-                      if (window.location.pathname == "/copyright-notice")
+                      if (window.location.pathname == "/SuperCars/copyright-notice")
                         window.scrollTo(0, 0);
-                      else navigate("/copyright-notice");
+                      else navigate("/SuperCars/copyright-notice");
                     }}
                   >
                     <span>COPYRIGHT NOTICE</span>
@@ -132,9 +132,9 @@ const Footer = () => {
                     className="dark-font"
                     style={{ background: "black", color: "#212529" }}
                     onClick={() => {
-                      if (window.location.pathname == "/disclaimer")
+                      if (window.location.pathname == "/SuperCars/disclaimer")
                         window.scrollTo(0, 0);
-                      else navigate("/disclaimer");
+                      else navigate("/SuperCars/disclaimer");
                     }}
                   >
                     <span>DISCLAIMER</span>
